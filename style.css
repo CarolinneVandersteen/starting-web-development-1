@@ -1,17 +1,23 @@
 html, body{
-  background-color: #CCC;
+  background-color: #eaeaea;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Montserrat", Montserrat, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
+a{
+  text-decoration: none;
+  }
+
+
 h1{
-  color: #CC1111;
+  color: #ef4e54;
 }
 
 h1, h2, h3{
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .HeadImg{
@@ -22,7 +28,7 @@ h1, h2, h3{
 }
 
 .button{
-  background-color: #CC1111;
+  background-color: #ef4e54;
   color: #FFF;
   justify-content: center;
   padding: 1em 1.7em;
@@ -31,6 +37,8 @@ h1, h2, h3{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 5px;
+  border: none;
 }
 
 span{
@@ -42,19 +50,20 @@ span{
 .movie *{
   position: relative;
 }
-.movie img{
+img{
+  width: auto;
   height: 100%;
-
+  padding:0.5em;
 }
 
 .block{
   background-color: #FFF;
-  width:40%;
+  width:50%;
   margin:1em;
   padding:1em;
   font-family: sans-serif;
-  color: #AAA;
-  box-shadow: 0.1em 0.1em 0.1em#AAA;
+  color: #888;
+  box-shadow: 0.1em 0.1em 0.1em #AAA;
 }
 
 .link{
@@ -62,6 +71,7 @@ span{
   justify-content: center;
   text-align: center;
 }
+
 .link *{
-  margin: 0px 1em;
+  margin: 0 1em;
 }
